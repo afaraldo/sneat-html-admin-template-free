@@ -480,7 +480,7 @@ $input-group-addon-border-color: $input-border-color !default;
 // scss-docs-start form-select-variables
 $form-select-padding-y: $input-btn-padding-y !default;
 $form-select-padding-x: $input-padding-x !default;
-$form-select-indicator-padding: $form-select-padding-x + 1rem !default;
+$form-select-indicator-padding: calc($form-select-padding-x + 1rem) !default;
 $form-select-disabled-color: $body-color !default;
 $form-select-disabled-bg: $input-disabled-bg !default;
 $form-select-bg-size: 17px 12px !default;
